@@ -12,7 +12,7 @@
     <Description>Fixes a bug with the HackPad's weight caused by changes in the base game since the original release</Description>
     <PluginId>com.willis.lc.portablehackpad.weightpatch</PluginId>
     <Version>0.0.1</Version>
-    <ThunderWebsiteUrl>https://github.com/willis81808/LethalCompany-PortableMultiTool</ThunderWebsiteUrl>
+    <ThunderWebsiteUrl>https://github.com/willis81808/HackPad-WeightPatch</ThunderWebsiteUrl>
   </PropertyGroup>
 
   <ItemGroup>
