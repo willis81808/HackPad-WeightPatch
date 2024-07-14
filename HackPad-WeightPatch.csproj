@@ -8,7 +8,7 @@
 
     <RootNamespace>PortableMultiTool</RootNamespace>
 
-    <Title>HackPad - Weight Patch</Title>
+    <Title>HackPad Weight Patch</Title>
     <Description>Fixes a bug with the HackPad's weight caused by changes in the base game since the original release</Description>
     <PluginId>com.willis.lc.portablehackpad.weightpatch</PluginId>
     <Version>0.0.1</Version>
