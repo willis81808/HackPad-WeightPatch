@@ -2,11 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>HackPad_WeightPatch</RootNamespace>
+    <RootNamespace>HackPadWeightPatch</RootNamespace>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-
-    <RootNamespace>PortableMultiTool</RootNamespace>
 
     <Title>HackPad Weight Patch</Title>
     <Description>Fixes a bug with the HackPad's weight caused by changes in the base game since the original release</Description>
