@@ -1,0 +1,27 @@
+﻿<Project Sdk="LethalCompany.Plugin.Sdk/1.0.0">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>HackPad_WeightPatch</RootNamespace>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <RootNamespace>PortableMultiTool</RootNamespace>
+
+    <Title>HackPad - Weight Patch</Title>
+    <Description>Fixes a bug with the HackPad's weight caused by changes in the base game since the original release</Description>
+    <PluginId>com.willis.lc.portablehackpad.weightpatch</PluginId>
+    <Version>0.0.1</Version>
+    <ThunderWebsiteUrl>https://github.com/willis81808/LethalCompany-PortableMultiTool</ThunderWebsiteUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PortableMultiTool">
+      <HintPath>..\..\..\..\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\willis81808-HackPad\PortableMultiTool.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ThunderDependency Include="willis81808-HackPad-1.1.3" />
+  </ItemGroup>
+</Project>
